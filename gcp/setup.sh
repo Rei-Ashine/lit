@@ -11,8 +11,8 @@ echo '' >> $HOME/.ssh/config
 echo 'Host github.com' >> $HOME/.ssh/config
 echo '    HostName github.com' >> $HOME/.ssh/config
 echo '    User git' >> $HOME/.ssh/config
-echo 'done!'
 wait
+echo 'done!'
 
 # Set up the instance
 echo 'Setting up the instance...'
@@ -21,4 +21,11 @@ sudo apt remove vim
 sudo add-apt-repository ppa:jonathonf/vim
 sudo apt update
 sudo apt install vim git build-essential tmux htop
+wait
+echo 'done!'
+
+# Set up vimrc file
+echo 'Setting up vimrc file...'
+mv .vimrc $HOME/
+wait
 echo 'done!'

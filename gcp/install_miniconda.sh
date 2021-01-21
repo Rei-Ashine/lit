@@ -19,4 +19,5 @@ echo 'Installing libraries...'
 conda update conda
 conda config --append channels conda-forge
 conda install pandas numpy matplotlib seaborn httplib2 crcmod scikit-learn
+wait
 echo 'done!'
