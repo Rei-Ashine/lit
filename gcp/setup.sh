@@ -26,6 +26,6 @@ echo 'done!'
 
 # Set up vimrc file
 echo 'Setting up vimrc file...'
-mv .vimrc $HOME/
+cp .vimrc $HOME/
 wait
 echo 'done!'
