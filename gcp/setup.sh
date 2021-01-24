@@ -29,3 +29,10 @@ echo 'Setting up vimrc file...'
 cp .vimrc $HOME/
 wait
 echo 'done!'
+
+# Set up tmux.conf file
+echo 'Setting up tmux.conf file...'
+cp .tmux.conf $HOME/
+wait
+echo 'done!'
+
