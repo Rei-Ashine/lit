@@ -1,5 +1,5 @@
 " Author: rei-ashine
-" DATE: Dec. 30th, 2020
+" DATE: Feb. 4th, 2021
 " *****************************************************************************
 "" Vim-Plug core
 " *****************************************************************************
@@ -48,6 +48,7 @@ if has("multi_lang")
 endif
 
 colorscheme xcodedark
+"colorscheme falcon
 "colorscheme papercolor
 set nocompatible
 set noswapfile
