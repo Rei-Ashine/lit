@@ -1,0 +1,20 @@
+JOB_ID: 11793873
+JOB_NAME: Test_Pickler
+Mon Feb  8 17:05:16 JST 2021
+Executing test_pickler.sh
+==================================================
+[start]
+Converting Allele Frequency data to the .pkl files...
+----------
+~~~~~ gnomAD [hg19] ~~~~~
+Input vcf file name : gnomad.exomes.r2.1.1.sites.1.vcf.bgz
+--> VCF version: VCFv4.2
+Additional vcf column list file name : Columns_gnomAD.txt
+Parsing vcf file...
+Pickling parsed vcf file...
+done!
+----------
+[end]
+==================================================
+Mon Feb  8 17:13:03 JST 2021
+Execution time: 0:7:47

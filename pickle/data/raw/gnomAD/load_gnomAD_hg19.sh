@@ -23,6 +23,10 @@ url="https://storage.googleapis.com/gnomad-public/release/2.1.1/README.txt"
 echo "Loading gnomAD input file [hg19]..."
 echo "Get data from : ${URL}"
 wget -q ${URL} 
+status=$?
+if [ ${status} -ne 0 ]; then
+    abort "[Error] Wget exit status: ${status}"
+fi
 echo "Get README.txt from : ${url}"
 wget -q ${url}
 wait
