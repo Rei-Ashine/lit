@@ -1,4 +1,0 @@
-Executing test.sh
-Loading gnomAD input test file [hg19]...
-Get data from : https://storage.googleapis.com/gcp-public-data--gnomad/release/2.1.1/vcf/exomes/gnomad.exomes.r2.1.1.sites.1.vcf.bgz
-done!
