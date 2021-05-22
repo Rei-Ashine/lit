@@ -3,6 +3,7 @@
 set -euo pipefail
 
 # Check kernel version
+echo
 echo -----
 echo "Kernel version :"
 cat /proc/version || uname -a
@@ -17,3 +18,4 @@ echo "OS version :"
 [ -f /etc/redhat-release ] && cat /etc/redhat-release
 # For Fedora
 [ -f /etc/fedora-release ] && cat /etc/fedora-version
+echo
