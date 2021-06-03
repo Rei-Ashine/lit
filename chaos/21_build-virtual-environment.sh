@@ -22,3 +22,15 @@ conda init bash
 wait
 echo "done!"
 echo
+
+echo -----
+echo "Adding a command to read environment variables to .bashrc ..."
+echo "" >> ~/.bashrc
+echo "# --- For tmux" >> ~/.bashrc
+echo 'if [ -n $TMUX ]; then' >> ~/.bashrc
+echo '		conda deactivate' >> ~/.bashrc
+echo '		conda activate base' >> ~/.bashrc
+echo 'fi' >> ~/.bashrc
+wait
+echo "done!"
+echo
