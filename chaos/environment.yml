@@ -1,0 +1,25 @@
+name: dry
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.7.6
+  - conda=4.10.1
+  - bwa=0.7.17
+  - sra-tools=2.10.9
+  - samtools=1.9
+  - picard=2.25.1
+  - gatk4=4.2.0.0
+  - bedtools=2.30.0
+  - jellyfish=1.1.12
+  - bbmap=38.90
+  - pilon=1.23
+  - nanoplot=1.27.0
+  - canu=1.8
+  - wtdbg=2.5
+  - perl-net-ftp=2.79
+  - perl-lwp-protocol-https=6.07
+  - openpyxl=3.0.7
+  - cyvcf2=0.11.7
+  - joblib=1.0.1
